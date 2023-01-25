@@ -1,0 +1,39 @@
+body {
+   background-size: fill;
+   display: absolute;
+}
+h2{
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   color:#7a98b6;
+   text-decoration:none;
+}
+
+
+.containerCard {
+   --glow-spread-color: rgba(148, 145, 145, 0.568);
+   --enhanced-glow-color: rgba(192, 192, 192, 0.651);
+   --btn-color: rgb(111, 84, 136);
+     
+     height: 370px;
+     width: 300px;
+     margin: 20px ;
+     padding: 25px;
+     background: linear-gradient(#44144de5, rgba(0, 0, 0, 0.726)),
+
+         center no-repeat;
+         color: rgba(148, 117, 215, 0.897);
+         font-size: 13px;
+         font-weight: bold;
+     image-resolution: 100%;
+     background-size: 179%;
+     border: .15em solid var(--glow-color);
+     border-radius: 30px;
+     outline: none;
+   box-shadow: 0 0 1em .10em var(--glow-spread-color),
+          0 0 10em 0em var(--glow-spread-color),
+          inset 0 0 .10em .25em var(--glow-spread-color);
+   text-shadow: 0 0 .5em var(--glow-color);
+   transition: all 0.3s;
+   }
+
+  

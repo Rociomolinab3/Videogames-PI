@@ -1,0 +1,28 @@
+.divContainer {
+   
+    background-size: cover;
+   display: absolute;
+}
+
+.load {
+  border-top: 0%;
+  text-align: center;
+  image-resolution: 30%;
+  margin: 0px ;
+  padding: 0px;
+  place-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.974), rgba(0, 0, 1, 0.934));
+     
+}
+
+.img {
+  background-size: cover;
+  display: absolute;
+  align-items: center;
+  place-items: center;
+  padding: 50px 0px 200px 5px;
+  margin: 50px 0px 200px 5px;
+  place-items: center;
+  
+    
+}

@@ -1,0 +1,96 @@
+body {
+  font-weight: inherit;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  background-color: black;
+}
+
+body{
+  margin:0;
+  font: size 1rem;
+  line-height:1.5 ;
+}
+
+.header{
+height:100vh; 
+display:grid;
+/* align-items: center; */
+}
+
+.content{
+  /* max-width: 50rem; */
+  padding-left: 1rem;
+  margin:auto;
+  text-align:center;
+}
+
+.headervideo{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100vw;
+  /* height: 100vw; */
+}
+
+.headervideo video{
+  min-width: 100%;
+  min-height: 100%;
+}
+.headeroverlay{
+  /* height: 100vh;
+  width: 100vh; */
+  position:absolute;
+  top:0;
+  left:0;
+  background: rgb(207, 207, 207);
+  opacity: 20%;
+  z-index:1
+}
+
+.headercontent1{
+  position:relative;
+  z-index:3;
+}
+
+.wrapper {
+
+  font-family: sans-serif;
+  font-size: 30px;
+  margin:0px;
+  display: flex;
+  justify-content: center;
+  
+ }
+ 
+.glow {
+  color:#6d8caa;
+  text-shadow: rgb(208, 221, 223) 0 0 10px;
+ }
+
+ .landingButton{
+    min-width: 130px;
+    height: 40px;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: 1px;
+    background-size: 120% auto;
+    background-image: linear-gradient(315deg, #000000 0%, #8faff3 75%);
+  }
+  .landingButton:hover {
+    background-position: right center;
+  }
+  .landingButton:active {
+    top: 2px;
+  }
+

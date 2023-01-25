@@ -1,0 +1,22 @@
+.containerForm{
+    font-family: 'Courier New', Courier, monospace;
+    color:azure;
+}
+
+.error{
+    color: red;
+}
+
+.boton{
+    text-decoration: none;
+    background-color: #32343d;
+    color:rgb(86, 93, 136);
+    min-width: 160px;
+    height: 30px;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    border: solid rgb(69, 61, 100);
+    margin: 5px;
+  }
